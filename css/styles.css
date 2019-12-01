@@ -1,0 +1,92 @@
+body {
+  background-color: white;
+}
+h1 {
+  color: black;
+}
+h2 {
+  color: black;
+}
+h3 {
+  color: black;
+}
+p {
+  color: black;
+}
+p.para {
+  max-width: 50%;
+  font: 15px arial, sans-serif;
+}
+
+p.work {
+  max-width: 100%;
+  margin: 10px;
+  font: 13px arial, sans-serif;
+}
+
+
+p.font1 {
+  font: 15px arial, sans-serif;
+}
+
+p.font2 {
+  font: italic bold 12px/30px Georgia, serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font: 17px arial, sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  font: 15px arial, sans-serif;
+  font-size: 15px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
